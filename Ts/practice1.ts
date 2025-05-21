@@ -6,23 +6,23 @@
 // }
 // console.log(factorial(17));
 
-// interface user{
-//     name:string;
-//     age:number;
-//     email:string;
-// }
+ interface user{
+     name:string;
+     age:number;
+     email:string;
+ }
 
 //A FUNCTION THAT ACCEPTS THE USER OBJECT AND RENTURNS A FORMATED STRING
 
-// function formateuser(user:user):string{
-//     return `User ${user.name} {${user.age}} years can be contact via ${user.email}`;
-// }
+ function formateuser(user:user):string{
+     return `User ${user.name} {${user.age}} years can be contact via ${user.email}`;
+ }
 
-// const user:user={
-//     name:'Abhi',
-//     age:20,
-//     email:'amg92848@gmail.com'
-// }
+ const user:user={
+     name:'Abhi',
+    age:20,
+     email:'amg92848@gmail.com'
+ }
 
 // console.log(formateuser(user));
 
